@@ -1,5 +1,14 @@
+
+#Area of circle
 π = 3.14  
 Radius = float (input ("input the radius of the given circle: "))  
 area_of_the_circle = π * Radius * Radius  
-print (" The area of the circle with radius ",  Radius ":" , area_of_the_circle)  
+print (" The area of the circle with radius ",  Radius , ":" , area_of_the_circle)  
 
+#Extension of file
+file_name=input("Enter the name of file :")
+extns=file_name.split(".")
+if extns[-1] == 'py' :
+    print ("The extension of the given file is : " + repr(extns[-1]), "(Python)")
+else:
+    print ("The extension of the given file is : " + repr(extns[-1]))
